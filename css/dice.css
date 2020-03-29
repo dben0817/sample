@@ -43,18 +43,6 @@ footer {
 
 }
 
-/* Navbar Home Icon */
-
-.fa-home {
-  display: none;
-}
-.navbar-brand:hover .fa-home{
-  display:block;
-}
-.navbar-brand:hover b {
-  display: none;
-}
-
 .textInput {
   background-color: #393E46;
   font-size: 1.5rem;
@@ -66,4 +54,16 @@ footer {
   margin-bottom: 8px;
   margin-top: 30px;
 
+}
+
+/* Navbar Home Icon */
+
+.fa-home {
+  display: none;
+}
+.navbar:hover .fa-home{
+  display:block;
+}
+.navbar:hover b {
+  display: none;
 }
