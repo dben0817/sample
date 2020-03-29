@@ -1,0 +1,174 @@
+ .navbar-dark {
+  background-color: #66BFBF;
+}
+
+/*favicon.cc for web icons*/
+/*Pesticide.io*/
+/*cssfontstack.com*/
+/*fonts.google.com*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family:  "Sacramento", cursive;
+  /*rem in CSS3 is root em, pulls the standard em and adjusts it*/
+  font-size: 6rem; /*1 em or 100% = 16px....2em or 200% = 32px*/
+  color: #F96D15;/*#66BFBF;*/
+}
+h2 {
+  margin: 10px auto;
+  font-family: "Monofett", "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem; /*em and % are inheritedso if you set to 2em in body and then 2em here, it would give you 4em*/
+  color: #F1935C;/*#66BFBF;*/
+}
+
+h2:hover {
+  font-family:  "Montserrat", sans-serif;
+}
+
+h3 {
+  color: #F1935C;/*#66BFBF;*/
+  font-style: italic;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+
+
+
+
+
+
+
+/*=========================================Class Styling================================================*/
+
+/*"https://static.pexels.com/photos/267147/pexels-photo-267147.jpeg"*/
+.top {
+  background-color:  #E4F9F5;
+  padding: 150px;
+}
+
+/*.middle {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+
+.bottom {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}*/
+
+.tech {
+  text-decoration: underline;
+}
+
+.code-img {
+  border-radius: 100%;
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.book-img {
+  border-radius: 100%;
+  width:25%;
+  float: right;
+  margin-right: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.skills {
+  margin: 50px auto;
+}
+
+.contact-me {
+  margin: 50px auto;
+}
+
+.bottom-container {
+  background-color: #E4F9F5;
+  text-align: center;
+  padding: 70px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #11cdd4 5%, #011899 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+  margin: 50px auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #011899 5%, #11cdd4 100%);
+	background-color:#011899;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.trademark {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  padding: 40px 30px 5px;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  padding: 30px;
+  color: #11999E;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+
+}
+.footer-link:hover {
+  color: #A4FBF5;
+}
+
+/* Navbar Home Icon */
+.fa-home {
+  display: none;
+}
+.logo {
+
+}
+.navbar-brand:hover .fa-home{
+  display:block;
+}
+.navbar-brand:hover b {
+  display: none;
+}
