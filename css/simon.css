@@ -21,8 +21,8 @@ body {
 .bttn {
   margin: 20px;
   display: inline-block;
-  height: 180px;
-  width: 180px;
+  height: 200px;
+  width: 200px;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -46,7 +46,6 @@ body {
 
 .yellow {
   background-color: yellow;
-  margin-left: 100px;
 }
 
 .pressed {
