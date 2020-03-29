@@ -87,12 +87,9 @@ background-image: url("../images/kick.png");
 .fa-home {
   display: none;
 }
-.logo {
-
-}
-.navbar-brand:hover .fa-home{
+.navbar:hover .fa-home{
   display:block;
 }
-.navbar-brand:hover b {
+.navbar:hover b {
   display: none;
 }
