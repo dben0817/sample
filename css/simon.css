@@ -57,12 +57,11 @@ body {
 .fa-home {
   display: none;
 }
-.logo {
 
-}
 .navbar:hover .fa-home{
   display:block;
 }
+
 .navbar:hover b {
   display: none;
 }
